@@ -1,0 +1,193 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Alamofire (3.1.4)
+  - AsyncSwift (1.6.4)
+  - Atlas (1.0.16):
+    - LayerKit (>= 0.17.1)
+  - Bolts (1.5.1):
+    - Bolts/AppLinks (= 1.5.1)
+    - Bolts/Tasks (= 1.5.1)
+  - Bolts/AppLinks (1.5.1):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.5.1)
+  - Branch (0.11.13)
+  - Cartography (0.6.0)
+  - Charts (2.1.6)
+  - Crashlytics (3.5.0):
+    - Fabric (~> 1.6.0)
+  - DateTools (1.7.0)
+  - Digits (1.14.6):
+    - TwitterCore (= 1.14.6)
+  - Eureka (1.3.0)
+  - Fabric (1.6.2)
+  - FBSDKCoreKit (4.8.0):
+    - Bolts (~> 1.1)
+    - FBSDKCoreKit/arc (= 4.8.0)
+    - FBSDKCoreKit/no-arc (= 4.8.0)
+  - FBSDKCoreKit/arc (4.8.0):
+    - Bolts (~> 1.1)
+  - FBSDKCoreKit/no-arc (4.8.0):
+    - Bolts (~> 1.1)
+    - FBSDKCoreKit/arc
+  - FBSDKLoginKit (4.8.0):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.8.0):
+    - FBSDKCoreKit
+  - FLAnimatedImage (1.0.10)
+  - FPPicker (5.1.2):
+    - AFNetworking (~> 2.6.0)
+    - MBProgressHUD (~> 0.9)
+    - PureLayout (~> 2.0.6)
+  - Hue (1.0.0)
+  - InAppSettingsKit (2.6)
+  - IQKeyboardManagerSwift (3.3.5)
+  - LayerKit (0.17.6)
+  - Locksmith (2.0.2)
+  - MBProgressHUD (0.9.2)
+  - Mixpanel (2.9.1):
+    - Mixpanel/Mixpanel (= 2.9.1)
+  - Mixpanel/Mixpanel (2.9.1)
+  - Moya (6.0.0):
+    - Moya/Core (= 6.0.0)
+  - Moya/Core (6.0.0):
+    - Alamofire (~> 3.0)
+    - Result (~> 1.0)
+  - PermissionScope (1.0.1)
+  - PINCache (2.1.2)
+  - PINRemoteImage (1.2.2):
+    - PINRemoteImage/FLAnimatedImage (= 1.2.2)
+  - PINRemoteImage/Core (1.2.2):
+    - PINCache (>= 2.1)
+  - PINRemoteImage/FLAnimatedImage (1.2.2):
+    - FLAnimatedImage (>= 1.0)
+    - PINRemoteImage/Core
+  - RateLimit (1.2.1)
+  - Realm (0.97.0):
+    - Realm/Headers (= 0.97.0)
+  - Realm/Headers (0.97.0)
+  - RealmSwift (0.97.0):
+    - Realm (= 0.97.0)
+  - Result (1.0.1)
+  - SwiftLocation (0.2.0)
+  - SwiftyJSON (2.3.2)
+  - SwiftyUserDefaults (2.0.0)
+  - Toucan (0.5.0)
+  - TwitterCore (1.14.6):
+    - Fabric
+  - TwitterKit (1.14.6):
+    - TwitterCore (= 1.14.6)
+  - VideoSplashKit (1.1.0)
+  - Whisper (1.1.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - AsyncSwift
+  - Atlas
+  - Branch
+  - Cartography
+  - Charts
+  - Crashlytics
+  - DateTools
+  - Digits
+  - Eureka
+  - Fabric
+  - FBSDKLoginKit
+  - FBSDKShareKit
+  - FPPicker
+  - Hue (from `https://github.com/hyperoslo/Hue.git`)
+  - InAppSettingsKit
+  - IQKeyboardManagerSwift
+  - LayerKit
+  - Locksmith
+  - Mixpanel
+  - Moya
+  - PermissionScope
+  - PINRemoteImage
+  - RateLimit
+  - RealmSwift
+  - SwiftLocation
+  - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
+  - SwiftyUserDefaults
+  - Toucan
+  - TwitterKit
+  - VideoSplashKit
+  - Whisper
+
+EXTERNAL SOURCES:
+  Hue:
+    :git: https://github.com/hyperoslo/Hue.git
+  SwiftyJSON:
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  Hue:
+    :commit: d31e0257a47f05c1c800ce150d1fec104dfc9085
+    :git: https://github.com/hyperoslo/Hue.git
+  SwiftyJSON:
+    :commit: 5f59648a6e9356b26c5cb698ab924fa7d750b6c9
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  Alamofire: fbc829692f351fa1d8a31dd75fd7f7f56fea31fb
+  AsyncSwift: 3c90beed237324f1b57e1f1c414dc5501985d208
+  Atlas: d9ae5e5f6cd4012555f21cdbab8d2a373d5f2b3d
+  Bolts: a12663244b1d3351c738882e71902fc74db54f64
+  Branch: 37553775450de2d844b03a0854c37d6271d967e7
+  Cartography: 70af183a248547694a8cfaa6b989cb7e04589985
+  Charts: 5e1e5ac23898e5b09d226a2fc3e9d86bc281937e
+  Crashlytics: fabfd45d0e8b8dc936c682b97e302b9a49a1c827
+  DateTools: 53288ee8b905fdc75897a1e6b5cc0144b14cba60
+  Digits: 57b958f1e19907b70645fcd25f97f14175ff2438
+  Eureka: d4c038db3ddc4b60f6f08b0aca8ecbb0e9ff1278
+  Fabric: e8296d4a1abb3c5eed770cc86b311c862f51d340
+  FBSDKCoreKit: 66a935d17b6e00b6b64e604f2eb9b72c9ab7deb8
+  FBSDKLoginKit: d893fcbb98d854496925e9ff73c67b896982d3c4
+  FBSDKShareKit: e7577ee3adf80fc04fb656dd133fbb522250672b
+  FLAnimatedImage: e16a1e1cef08e4c509b47e4acbe3923f65c16135
+  FPPicker: 995edb5a796ba55fc92cfa74460395998d5a958e
+  Hue: 44ae8b1091935fcc75055174095ab04653989235
+  InAppSettingsKit: cc56d3ec45f11352a16d5b210da8a3fa1b9d05ed
+  IQKeyboardManagerSwift: 17f1ebf3fe07f7905369c6dca2da1051b6fea805
+  LayerKit: 8fb2a7997ae354f5b00854dd6a3104c622477276
+  Locksmith: 7f2b68448449a7712348f9a4ed60604c1cc8dfa6
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  Mixpanel: 5ca24b2a05f4c77fe9bcfe7671d681d0f3f8d76f
+  Moya: 9bd9f20e6451c820c17ca40e1b3f6489757fa821
+  PermissionScope: 9767066cedefd211d90a8c4f92f6f1a987085ee8
+  PINCache: 9e70271f1bdd60c0465b7208adcc4b6acc1fc376
+  PINRemoteImage: 9f6f484bbceee15e2df5aee0beeac2e261e4ac81
+  RateLimit: a9f79f45f4387b96e229b4f7ab8972c386570b57
+  Realm: b498a6fb9d288b171ff98d0e2d4384c295be8990
+  RealmSwift: d014810dec75c9a3f1a33926d2dabfed855c582c
+  Result: caef80340451e1f07492fa1e89117f83613bce24
+  SwiftLocation: ea78ae4a822581bde7379d98c8513273723c8840
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+  SwiftyUserDefaults: 1266e9734c68bcfbac8294ee84173dc8ba6db312
+  Toucan: 0519c341148252ae114c5a657d2a85bb9ada9e40
+  TwitterCore: 5e9b2d066ceeef53fe611c0c4436cb700f1ed620
+  TwitterKit: f67360ee0a5f935f053bf37015652ac157e4eb92
+  VideoSplashKit: 0aa63d0bb37c5bd357de3e6a2a13dea5acad4d66
+  Whisper: 80f9eafa9d51dbc246f7c6aeb8aaa146a20cddce
+
+COCOAPODS: 0.39.0
